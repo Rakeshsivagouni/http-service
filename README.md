@@ -6,6 +6,7 @@ Requirements:
 
 * Python3
 * Python3-venv
+* Docker: V19.03.6
 
 ** I used python virtual env to run this web service **
 

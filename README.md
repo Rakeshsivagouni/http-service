@@ -48,6 +48,10 @@ http://127.0.0.1:8080
 ```
 http://127.0.0.1:8181
 
+* Logs will be generated to stdout in the below format,
+
+127.0.0.1 - - [18/Feb/2020 16:15:50] "GET /helloworld HTTP/1.1" 200
+
 ## Running the service with Dockerfile
 
 A Dockerfile is written to run this service as a container

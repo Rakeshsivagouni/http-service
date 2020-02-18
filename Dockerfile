@@ -5,6 +5,7 @@ RUN pip3 install flask
 WORKDIR /app
 
 COPY app.py /app
+COPY .git /app
 
 ENTRYPOINT ["python3"]
 
